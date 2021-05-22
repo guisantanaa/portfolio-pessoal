@@ -1,0 +1,42 @@
+.projectItem {
+  padding-top: 15rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 600px) {
+  .projectItem {
+    display: grid;
+    padding-top: 0%;
+  }
+}
+
+.cardSection {
+  text-align: center;
+  background: #23967f;
+  border-radius: 0.8rem;
+  margin: 0.5rem;
+  padding: 0.7rem;
+  color: black;
+  transition: 0.2s;
+  width: 96%;
+  transition: 0.2s;
+
+  &:hover {
+    filter: brightness(0.9);
+  }
+
+  img {
+    border-radius: 0.8rem;
+    cursor: pointer;
+    width: 100%;
+  }
+
+  a {
+    display: block;
+    font-weight: 600;
+    font-size: 1.1rem;
+    color: #f5f5f5;
+  }
+}
